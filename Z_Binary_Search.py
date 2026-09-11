@@ -1,7 +1,7 @@
 N,Q=list(map(int,input().split()))
 A=list(map(int,input().split()))
+A.sort()
 for i in range(Q):
-    A.sort()
     flag='not found'
     X=int(input())
     low, high = 0, len(A) - 1
